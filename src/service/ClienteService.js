@@ -8,5 +8,13 @@ class ClienteService {
         console.log(CURRENT_API_URL);
         return MasterService.getDataService(CURRENT_API_URL);
     }
+
+    
+
+
+
+
+
+
 }
 export default new ClienteService();

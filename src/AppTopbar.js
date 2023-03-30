@@ -10,7 +10,7 @@ export const AppTopbar = (props) => {
     useEffect(() => {
         ClienteService.getTexto().then((valid) => {
             console.log(valid.data);
-            setTexto(valid.data);
+           // setTexto(valid.data);
         });
     }, []);
 
